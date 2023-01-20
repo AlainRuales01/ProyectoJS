@@ -1,11 +1,17 @@
-import logo from './logo.svg';
+import React,{useState} from 'react';
 import './App.css';
+import Card from './components/Card';
 
 function App() {
+  const[cards, setCards] = useState([1, 2, 3, 4]);
   return (
     <div className='app'>
       <div className='cards-container'>
-        <h1>hola</h1>
+        {
+          cards.map((card) =>(
+            <Card />
+          ))
+        }
       </div>
     </div>
   );
