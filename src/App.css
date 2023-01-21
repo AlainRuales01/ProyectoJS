@@ -10,7 +10,7 @@
 .cards-container{
   width: 1000px;
   height: 600px;
-  border: 1px solid white;
+  
 }
 
 .card{
@@ -25,3 +25,7 @@
   transform: scale(0.98);
 }
 
+.card-image{
+  height: calc(200px - 10px);
+  width: calc(250px - 10px);
+}
