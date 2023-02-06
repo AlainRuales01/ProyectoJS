@@ -74,20 +74,24 @@ function App() {
   }
   
   return (
-    <div className='app'>
-      <div className='cards-container'>
-        {
-          cards.map((card, index) =>(
-            <Card content={card.content} 
-            number={index}
-            frontFace={card.src} 
-            flipCard={flipCard}
-            unflippedCards={unflippedCards}
-            disabledCards={disabledCards}/>
-          ))
-        }
+    <div className='container'>
+      <h1>Juego Memoria del Medio Ambiente - Alain Ruales</h1>
+      <div className='app'>
+        <div className='cards-container'>
+          {
+            cards.map((card, index) =>(
+              <Card content={card.content} 
+              number={index}
+              frontFace={card.src} 
+              flipCard={flipCard}
+              unflippedCards={unflippedCards}
+              disabledCards={disabledCards}/>
+            ))
+          }
+        </div>
       </div>
     </div>
+   
   );
 }
 
