@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# ProyectoJS - Alain Ruales
+En este repositorio se encuentra la implementación de un juego de memoria creado para ingeniería web del periodo 202310
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Fuente utilizada: https://www.youtube.com/watch?v=OpZEIxqQfIs
 
-## Available Scripts
+## Ejecución de proyecto
 
-In the project directory, you can run:
+Para poder ejecutar el proyecto se debera ejecutar el comando 'npm start'. Es aplicación se abrirá en el 'http://localhost:8080/' y además se actualizará automáticamente si existen cambios en los archivos
 
-### `npm start`
+# Estructura de proyecto
+Los archivos y carpetas más importantes dentro de la estructura del proyecto son los siguientes:
+- src:
+  - ## Componets:
+  En esta carpeta se encuentran los componentes utilizados para el funcionamiento del juego
+    - Card.js: Este es un componente que es utilizado para el manejo de estado al ser seleccionada una tarjeta en pantalla.
+  - ## Images: 
+  En esta carpeta se encuentra todas las imágenes que serán utilizadas para este proyecto. Esto incluye el background, la imágen posterior de la tarjeta, y el contenido que tendrá cada tarjeta.
+  - ## App.js
+  Será la vista presentada al iniciar el programa. En este archivo se tiene una lista de componentes tarjetas. También, se encuentra las funciones necesarias para validar parejas de tarjetas, controlar el estado de cada una de ellas en caso de que se encuentre un par de tarjetas y regresar a estado inicial al momento de presionar dos tarjetas que no son pareja.
+  - ## import.js
+  Es un archivo que será utilizado para cargar las imágenes de contenido para las tarjetas.
+  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Funcionalidad de proyecto
+Este proyecto es un juego de memoria con temática del medio ambiente. Esta es una aplicación sencilla creada en React, la cual sirvió como práctica para empezar a conocer sobre esta herramienta muy útil al momento de crear front-end.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![image](https://user-images.githubusercontent.com/87552871/217009580-8496e5d9-a79f-4b19-b0e2-96defe860017.png)
 
-### `npm test`
+# Deploy en la nube
+Actualmente, este proyecto se encuentra deployado en la plataforma de Netlify. Para poder lograr esto se siguió la siguiente guía: https://www.youtube.com/watch?v=-Euov0WKuV8
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Enlace front: https://arproyectojs.netlify.app/
